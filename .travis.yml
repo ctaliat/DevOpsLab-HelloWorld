@@ -20,5 +20,6 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: $HEROKU_API_KE
+    #secure: $HEROKU_API_KE
+    secure: $HEROKU_API
   app: devopsctaliati
